@@ -402,6 +402,17 @@ a {
     align-items: stretch;
   }
 
+  @media (max-width: 1024px) {
+    .contact-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 /* ------------------------------
    FOOTER
    ------------------------------ */
@@ -535,18 +546,6 @@ a {
     height: 260px; /* copertă proporționată pentru telefoane mici */
     max-width: 320px;
     margin-inline: auto;
-  }
-
-  @media (max-width: 1024px) {
-    .contact-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 640px) {
-    .contact-grid {
-      grid-template-columns: 1fr;
-    }
   }
 }
 
