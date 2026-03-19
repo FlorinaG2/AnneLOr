@@ -780,5 +780,24 @@
       }
     }
 
+    .footer-links {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.8rem 1.3rem;
+    }
+    
+    .footer-links a {
+      font-size: 0.88rem;
+      opacity: 0.85;
+      transition: color var(--transition-fast), opacity var(--transition-fast);
+    }
+    
+    .footer-links a:hover {
+      color: var(--color-accent);
+      opacity: 1;
+    }
+
 
   
