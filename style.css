@@ -393,6 +393,16 @@ a {
 }
 
 /* ------------------------------
+   CONTACT SECTION
+   ------------------------------ */
+   .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    align-items: stretch;
+  }
+
+/* ------------------------------
    FOOTER
    ------------------------------ */
 .footer {
@@ -527,13 +537,6 @@ a {
     margin-inline: auto;
   }
 
-  .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    align-items: stretch;
-  }
-  
   @media (max-width: 1024px) {
     .contact-grid {
       grid-template-columns: repeat(2, 1fr);
