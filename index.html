@@ -7,19 +7,56 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="#top" class="nav-brand">Anne L’Or</a>
+  
+      <ul class="nav-links desktop-nav">
+        <li><a href="#top">Acasă</a></li>
+        <li><a href="#why-us">De ce noi</a></li>
+        <li><a href="#collections">Colecții</a></li>
+        <li><a href="#location">Locație</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        type="button"
+        aria-label="Deschide meniul"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu-links">
+        <li><a href="#top">Acasă</a></li>
+        <li><a href="#why-us">De ce noi</a></li>
+        <li><a href="#collections">Colecții</a></li>
+        <li><a href="#location">Locație</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
   <!-- HERO SECTION -->
-  <header class="hero">
+  <header class="hero" id="top">
     <div class="hero-content">
       <div class="hero-text">
         <p class="hero-tagline">Rochii care spun o poveste.</p>
-        <h1 class="hero-title">Anne L’Or</h1>
+        <!-- <h1 class="hero-title">Anne L’Or</h1> -->
         <p class="hero-subtitle">
           Atelier de rochii de gală și rochii de mireasă, creat pentru femei care iubesc eleganța, feminitatea și detaliile fine.
         </p>
         <a href="#collections" class="btn primary-btn">Vezi colecțiile</a>
       </div>
       <div class="hero-image-wrapper">
-        <!-- Poza de copertă – schimbă doar numele fișierului din atributul src dacă folosești altă imagine -->
         <img src="ImageTooLarge.png" alt="Rochie de gală elegantă Anne L’or" class="hero-image">
       </div>
     </div>
@@ -221,7 +258,7 @@
     </div>
   </div>
 
-  <section class="section contact-section">
+  <section class="section contact-section" id="contact">
     <div class="container">
       <h2 class="section-title">Contact</h2>
       <div class="contact-grid">
@@ -230,8 +267,7 @@
             <i class="fa-brands fa-whatsapp"></i>
           </div>
           <h2>WhatsApp</h2>
-          <p>Ne poți scrie direct pentru detalii rapide și programări.</p>
-          <a href="https://wa.me/40742354640" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+            <a href="https://wa.me/40742354640" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
             Deschide WhatsApp
           </a>
         </article>
@@ -241,7 +277,6 @@
             <i class="fa-solid fa-phone"></i>
           </div>
           <h2>Telefon</h2>
-          <p>Sună-ne pentru informații despre probă, comandă sau disponibilitate.</p>
           <a href="tel:+40742354640" class="btn primary-btn">
             +40 742 354 640
           </a>
@@ -252,7 +287,6 @@
             <i class="fa-brands fa-instagram"></i>
           </div>
           <h2>Instagram</h2>
-          <p>Descoperă modele, noutăți și inspirație vizuală din colecțiile noastre.</p>
           <a href="https://www.instagram.com/atelier_annelor?igsh=dGw2bjVlYmxvM2dv&utm_source=qr" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
             Vezi Instagram
           </a>
@@ -263,7 +297,6 @@
             <i class="fa-brands fa-facebook-f"></i>
           </div>
           <h2>Facebook</h2>
-          <p>Urmărește pagina noastră pentru actualizări și comunicare directă.</p>
           <a href="https://www.facebook.com/share/1ZEBXZmdRP/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
             Vezi Facebook
           </a>
