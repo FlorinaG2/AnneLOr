@@ -11,15 +11,16 @@
   <nav class="site-nav">
     <div class="container nav-inner">
       <a href="#top" class="nav-brand">Anne L’Or</a>
-  
+
       <ul class="nav-links desktop-nav">
         <li><a href="#top">Acasă</a></li>
         <li><a href="#why-us">De ce noi</a></li>
+        <li><a href="#rental-terms">Condiții de închiriere</a></li>
         <li><a href="#collections">Colecții</a></li>
         <li><a href="#location">Locație</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-  
+
       <button
         class="nav-toggle"
         id="nav-toggle"
@@ -33,31 +34,31 @@
         <span></span>
       </button>
     </div>
-  
+
     <div class="mobile-menu" id="mobile-menu">
       <ul class="mobile-menu-links">
         <li><a href="#top">Acasă</a></li>
         <li><a href="#why-us">De ce noi</a></li>
+        <li><a href="#rental-terms">Condiții de închiriere</a></li>
         <li><a href="#collections">Colecții</a></li>
         <li><a href="#location">Locație</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
-  
+
   <!-- HERO SECTION -->
   <header class="hero" id="top">
     <div class="hero-content">
       <div class="hero-text">
         <p class="hero-tagline">Rochii care spun o poveste.</p>
-        <!-- <h1 class="hero-title">Anne L’Or</h1> -->
         <p class="hero-subtitle">
           Atelier de rochii de gală și rochii de mireasă, creat pentru femei care iubesc eleganța, feminitatea și detaliile fine.
         </p>
         <a href="#collections" class="btn primary-btn">Vezi colecțiile</a>
       </div>
       <div class="hero-image-wrapper">
-        <img src="ImageTooLarge.png" alt="Rochie de gală elegantă Anne L’or" class="hero-image">
+        <img src="ImageTooLarge.png" alt="Rochie de gală elegantă Anne L’Or" class="hero-image">
       </div>
     </div>
   </header>
@@ -66,15 +67,43 @@
     <!-- SECȚIUNEA DE CE NOI -->
     <section class="section why-us" id="why-us">
       <div class="container">
+        <p class="section-kicker">Unicitate • Detaliu • Eleganță</p>
         <h2 class="section-title">De ce noi?</h2>
+
         <p class="section-intro">
           La <strong>Anne L’Or</strong>, fiecare rochie este gândită să îți pună în valoare povestea. De la rochii de gală spectaculoase,
           până la rochii de mireasă atemporale, fiecare creație îmbină linii feminine, texturi luxoase și un rafinament discret.
         </p>
-        <div class="why-grid">
+
+        <div class="luxury-marquee">
+          <div class="luxury-marquee-track">
+            <div class="luxury-slide"><img src="Img2.jpeg" alt="Detaliu rochie roșie cu paiete"></div>
+            <div class="luxury-slide"><img src="Img3.jpeg" alt="Detaliu rochii elegante Anne L’Or"></div>
+            <div class="luxury-slide"><img src="Img4.jpeg" alt="Rochie neagră cu glitter"></div>
+            <div class="luxury-slide"><img src="Img5.jpeg" alt="Detaliu rochie neagră elegantă"></div>
+            <div class="luxury-slide"><img src="Img6.jpeg" alt="Detaliu rochie neagră elegantă"></div>
+            <div class="luxury-slide"><img src="Img13.jpeg" alt="Detaliu rochie neagră elegantă"></div>
+            <div class="luxury-slide"><img src="Img7.jpeg" alt="Detaliu mânecă cu pietre"></div>
+            <div class="luxury-slide"><img src="Img8.jpeg" alt="Detaliu rochie roz cu perle"></div>
+            <div class="luxury-slide"><img src="Img9.jpeg" alt="Rochie elegantă Anne L’Or"></div>
+            <div class="luxury-slide"><img src="Img10.jpeg" alt="Detaliu rochii premium Anne L’Or"></div>
+            <div class="luxury-slide"><img src="Img11.jpeg" alt="Detaliu rochie roșie premium"></div>
+            <div class="luxury-slide"><img src="Img12.jpeg" alt="Detaliu broderie florală roz"></div>
+
+            <div class="luxury-slide"><img src="Img1.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img2.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img3.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img4.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img5.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img6.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img7.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img8.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img9.jpeg" alt=""></div>
+            <div class="luxury-slide"><img src="Img10.jpeg" alt=""></div>
+          </div>
           <div class="why-item">
             <h3>Piese unice</h3>
-            <p>Fiecare piesă este executată într-un singur exemplar, pentru ca <strong>TU</strong> să fii unică! Rochia este aleasă cu grijă, pentru apariții memorabile la fiecare eveniment.</p>
+            <p>Fiecare piesă este executată într-un singur exemplar, pentru ca <strong>TU</strong> să fii unică. Fiecare rochie este aleasă cu grijă pentru apariții memorabile la fiecare eveniment.</p>
           </div>
           <div class="why-item">
             <h3>Personalizare după dimensiuni</h3>
@@ -92,14 +121,15 @@
       </div>
     </section>
 
+    <!-- SECȚIUNEA CONDIȚII DE ÎNCHIRIERE -->
     <section class="section rental-terms" id="rental-terms">
       <div class="container">
         <div class="rental-terms-header">
           <h2 class="section-title">Condiții de închiriere</h2>
         </div>
-    
+
         <div class="rental-faq">
-          <details class="faq-item" open>
+          <details class="faq-item" closed>
             <summary>Cum închiriez o rochie?</summary>
             <div class="faq-content">
               <p>
@@ -115,7 +145,7 @@
               <p>Se întocmește un contract în acest sens.</p>
             </div>
           </details>
-    
+
           <details class="faq-item">
             <summary>Cum închiriez dacă nu reușesc să ajung în atelier la probă?</summary>
             <div class="faq-content">
@@ -136,7 +166,7 @@
               </p>
             </div>
           </details>
-    
+
           <details class="faq-item">
             <summary>Când ridic rochia?</summary>
             <div class="faq-content">
@@ -145,7 +175,7 @@
               </p>
             </div>
           </details>
-    
+
           <details class="faq-item">
             <summary>Când returnez rochia?</summary>
             <div class="faq-content">
@@ -156,11 +186,11 @@
                 Rochia <strong>nu trebuie curățată</strong>, de acest aspect ne ocupăm noi.
               </p>
               <p>
-                Te rugăm doar să ne returnezi toate elementele închiriate: rochia, șalul, mănușile, trena detașabilă etc., în ambalajul original  (husa de panză și umerașul de catifea).
+                Te rugăm doar să ne returnezi toate elementele închiriate: rochia, șalul, mănușile, trena detașabilă etc., în ambalajul original (husa de pânză și umerașul de catifea).
               </p>
             </div>
           </details>
-    
+
           <details class="faq-item">
             <summary>Ce se întâmplă dacă rochia s-a murdărit sau s-a deteriorat?</summary>
             <div class="faq-content">
@@ -181,153 +211,161 @@
         </div>
       </div>
     </section>
-    
+
     <!-- SECȚIUNEA COLECȚIILE NOASTRE -->
-    <section class="section collections" id="collections">
-      <div class="container">
-        <div class="collections-header">
-          <h2 class="section-title">Colecțiile noastre</h2>
-          <p class="section-intro">
-            Descoperă colecțiile gândite pentru diferite tipuri de siluetă, astfel încât să găsești rochia care ți se potrivește
-            natural și elegant.
+<section class="section collections" id="collections">
+  <div class="container">
+    <div class="collections-header">
+      <h2 class="section-title">Colecțiile noastre</h2>
+      <p class="section-intro">
+        Descoperă colecțiile gândite pentru diferite tipuri de siluetă, astfel încât să găsești rochia care ți se potrivește natural și elegant.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+      <article class="card collection-card collection-xs">
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <h3 class="card-title">Colecția XS</h3>
+          <p class="card-text">
+            Siluete fine, linii delicate și rochii care urmăresc grațios corpul, pentru apariții feminine și rafinate.
           </p>
-        </div>
-
-        <div class="cards-grid">
-          <!-- Card XS -->
-          <article class="card">
-            <h3 class="card-title">Colecția XS</h3>
-            <p class="card-text">
-              Siluete fine, linii delicate și rochii care urmăresc grațios corpul, pentru apariții feminine și rafinate.
-            </p>
-            <a
-              href="https://plum-custard-043.notion.site/Colectia-XS-3253828098db80d988f7f95b5c8723fc?source=copy_link"
-              class="btn ghost-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Descoperă colecția XS
-            </a>
-          </article>
-
-          <!-- Card S -->
-          <article class="card">
-            <h3 class="card-title">Colecția  S</h3>
-            <p class="card-text">
-              Croieli feminine și echilibrate, care evidențiază natural linia corpului și eleganța discretă.
-            </p>
-            <a
-              href="https://plum-custard-043.notion.site/Colectia-S-3253828098db8049b44ec9ca3bed99fa?source=copy_link"
-              class="btn ghost-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Descoperă colecția S
-            </a>
-          </article>
-
-          <!-- Card M -->
-          <article class="card">
-            <h3 class="card-title">Colecția M </h3>
-            <p class="card-text">
-              Echilibru perfect între confort și eleganță, cu rochii care conturează frumos talia și evidențiază feminitatea.
-            </p>
-            <a
-              href="https://plum-custard-043.notion.site/Colectia-M-3253828098db80ec8454e88bd391d409?source=copy_link"
-              class="btn ghost-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Descoperă colecția M
-            </a>
-          </article>
-
-           <!-- Card L -->
-           <article class="card">
-            <h3 class="card-title">Colecția  L</h3>
-            <p class="card-text">
-              Linii fluide și croieli atent construite, pentru o prezență elegantă, sigură și sofisticată.
-            </p>
-            <a
-              href="https://plum-custard-043.notion.site/Colectia-L-3253828098db8070a6b0c9105418d3b8?source=copy_link"
-              class="btn ghost-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Descoperă colecția L
-            </a>
-          </article>
-
-          <!-- Card XL -->
-          <article class="card">
-            <h3 class="card-title">Colecția XL</h3>
-            <p class="card-text">
-              Croieli care valorifică armonios formele, punând accent pe confort, siguranță de sine și eleganță atemporală.
-            </p>
-            <a
-              href="https://plum-custard-043.notion.site/Colectia-XL-3253828098db80e6bd9af92cab22da7f?source=copy_link"
-              class="btn ghost-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Descoperă colecția XL
-            </a>
-          </article>
-        
-          <!-- Card 2XL -->
-          <article class="card">
-            <h3 class="card-title">Colecția 2XL</h3>
-            <p class="card-text">
-              Rochii create pentru a celebra feminitatea autentică, cu accent pe lejeritate, eleganță și încredere.
-            </p>
-            <a
-              href="https://plum-custard-043.notion.site/Colectia-XXL-3253828098db80048d51fcc8d6d86377?source=copy_link"
-              class="btn ghost-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Descoperă colecția 2XL
-            </a>
-          </article>
-        </div>
-
-        <div class="collections-footer">
-          <!-- Link general către pagina cu toate colecțiile -->
           <a
-            href="https://plum-custard-043.notion.site/Anne-L-Or-3253828098db80a0879bce4b5d71e4f3?source=copy_link"
-            class="btn primary-btn"
+            href="https://plum-custard-043.notion.site/Colectia-XS-3253828098db80d988f7f95b5c8723fc?source=copy_link"
+            class="btn ghost-btn"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Pagina de colecții
+            Descoperă colecția XS
           </a>
         </div>
+      </article>
 
-        <!-- Buton ghid de mărimi -->
-        <div class="size-guide-trigger">
-          <button class="btn ghost-btn" type="button" id="open-size-guide">
-            Ghid orientativ de mărimi
-          </button>
+      <article class="card collection-card collection-s">
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <h3 class="card-title">Colecția S</h3>
+          <p class="card-text">
+            Croieli feminine și echilibrate, care evidențiază natural linia corpului și eleganța discretă.
+          </p>
+          <a
+            href="https://plum-custard-043.notion.site/Colectia-S-3253828098db8049b44ec9ca3bed99fa?source=copy_link"
+            class="btn ghost-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Descoperă colecția S
+          </a>
         </div>
-      </div>
-    </section>
+      </article>
+
+      <article class="card collection-card collection-m">
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <h3 class="card-title">Colecția M</h3>
+          <p class="card-text">
+            Echilibru perfect între confort și eleganță, cu rochii care conturează frumos talia și evidențiază feminitatea.
+          </p>
+          <a
+            href="https://plum-custard-043.notion.site/Colectia-M-3253828098db80ec8454e88bd391d409?source=copy_link"
+            class="btn ghost-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Descoperă colecția M
+          </a>
+        </div>
+      </article>
+
+      <article class="card collection-card collection-l">
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <h3 class="card-title">Colecția L</h3>
+          <p class="card-text">
+            Linii fluide și croieli atent construite, pentru o prezență elegantă, sigură și sofisticată.
+          </p>
+          <a
+            href="https://plum-custard-043.notion.site/Colectia-L-3253828098db8070a6b0c9105418d3b8?source=copy_link"
+            class="btn ghost-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Descoperă colecția L
+          </a>
+        </div>
+      </article>
+
+      <article class="card collection-card collection-xl">
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <h3 class="card-title">Colecția XL</h3>
+          <p class="card-text">
+            Croieli care valorifică armonios formele, punând accent pe confort, siguranță de sine și eleganță atemporală.
+          </p>
+          <a
+            href="https://plum-custard-043.notion.site/Colectia-XL-3253828098db80e6bd9af92cab22da7f?source=copy_link"
+            class="btn ghost-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Descoperă colecția XL
+          </a>
+        </div>
+      </article>
+
+      <article class="card collection-card collection-2xl">
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <h3 class="card-title">Colecția 2XL</h3>
+          <p class="card-text">
+            Rochii create pentru a celebra feminitatea autentică, cu accent pe lejeritate, eleganță și încredere.
+          </p>
+          <a
+            href="https://plum-custard-043.notion.site/Colectia-XXL-3253828098db80048d51fcc8d6d86377?source=copy_link"
+            class="btn ghost-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Descoperă colecția 2XL
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="collections-footer">
+      <a
+        href="https://plum-custard-043.notion.site/Anne-L-Or-3253828098db80a0879bce4b5d71e4f3?source=copy_link"
+        class="btn primary-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Pagina de colecții
+      </a>
+    </div>
+
+    <div class="size-guide-trigger">
+      <button class="btn ghost-btn" type="button" id="open-size-guide">
+        Ghid orientativ de mărimi
+      </button>
+    </div>
+  </div>
+</section>
 
     <!-- SECȚIUNEA LOCAȚIE -->
     <section class="section location" id="location">
       <div class="container">
         <h2 class="section-title">Unde ne găsești</h2>
+
         <div class="location-intro">
           <p class="location-address">Bistrița, Str. Dornei, nr. 31</p>
           <p class="location-note">
             Showroom-ul <strong>Anne L’Or</strong> poate fi vizitat exclusiv pe bază de programare, pentru a-ți oferi o experiență personalizată.
           </p>
         </div>
-    
 
         <div class="map-wrapper">
-          <!-- Harta este responsivă: iframe-ul se adaptează automat la lățimea containerului -->
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.194118455795!2d24.495521376858544!3d47.134462871150475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749f7000afd8c6f%3A0x49b01e989a9919a1!2sAnneLor!5e0!3m2!1sro!2sro!4v1773568715835!5m2!1sro!2sro"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.194118455795!2d24.495521376858544!3d47.134462871150475!2m3!1f0!2f0!3f0!2m3!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749f7000afd8c6f%3A0x49b01e989a9919a1!2sAnneLor!5e0!3m2!1sro!2sro!4v1773568715835!5m2!1sro!2sro"
             style="border:0;"
             allowfullscreen=""
             loading="lazy"
@@ -344,7 +382,6 @@
       <button class="modal-close" type="button" id="close-size-guide" aria-label="Închide ghidul de mărimi">×</button>
       <h2 class="modal-title" id="size-guide-title">Ghid orientativ de mărimi</h2>
       <p class="modal-subtitle">Valorile sunt orientative și pot varia ușor în funcție de model.</p>
-      <!-- Imaginea cu ghidul de mărimi; schimbă src dacă folosești alt nume de fișier -->
       <div class="modal-image-wrapper">
         <img src="./GhidMarimi.png" alt="Ghid orientativ mărimi Anne L’Or" loading="lazy">
       </div>
@@ -360,7 +397,7 @@
             <i class="fa-brands fa-whatsapp"></i>
           </div>
           <h2>WhatsApp</h2>
-            <a href="https://wa.me/40742354640" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+          <a href="https://wa.me/40742354640" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
             Deschide WhatsApp
           </a>
         </article>
@@ -409,11 +446,10 @@
       <a href="/politica-confidentialitate.html">Politica de confidențialitate</a>
       <a href="/politica-cookies.html">Politica de cookies</a>
     </div>
-  </div>
   </footer>
 
-   <!-- popup informare fotografii -->
-   <div class="consent-modal" id="photo-consent-modal" aria-hidden="true">
+  <!-- popup informare fotografii -->
+  <div class="consent-modal" id="photo-consent-modal" aria-hidden="true">
     <div class="consent-box" role="dialog" aria-modal="true" aria-labelledby="consent-title">
       <h3 id="consent-title">Informare privind fotografiile transmise</h3>
       <p>
@@ -431,4 +467,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
