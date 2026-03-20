@@ -67,4 +67,54 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+  /* ------------------------------
+     POPUP INFORMARE FOTOGRAFII
+     ------------------------------ */
+     const consentModal = document.getElementById("photo-consent-modal");
+     const closeConsentBtn = document.getElementById("close-consent-modal");
+     const acceptConsentBtn = document.getElementById("accept-consent-modal");
+   
+     function openConsentModal() {
+       if (!consentModal) return;
+       consentModal.classList.add("active");
+       consentModal.setAttribute("aria-hidden", "false");
+       document.body.style.overflow = "hidden";
+     }
+   
+     function closeConsentModal() {
+       if (!consentModal) return;
+       consentModal.classList.remove("active");
+       consentModal.setAttribute("aria-hidden", "true");
+       localStorage.setItem("annelor_photo_consent_seen", "true");
+       document.body.style.overflow = "";
+     }
+   
+     if (consentModal) {
+       const alreadySeen = localStorage.getItem("annelor_photo_consent_seen");
+   
+       if (!alreadySeen) {
+         openConsentModal();
+       }
+   
+       if (closeConsentBtn) {
+         closeConsentBtn.addEventListener("click", closeConsentModal);
+       }
+   
+       if (acceptConsentBtn) {
+         acceptConsentBtn.addEventListener("click", closeConsentModal);
+       }
+   
+       consentModal.addEventListener("click", function (event) {
+         if (event.target === consentModal) {
+           closeConsentModal();
+         }
+       });
+   
+       document.addEventListener("keydown", function (event) {
+         if (event.key === "Escape" && consentModal.classList.contains("active")) {
+           closeConsentModal();
+         }
+       });
+     }
 });

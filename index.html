@@ -74,7 +74,7 @@
         <div class="why-grid">
           <div class="why-item">
             <h3>Piese unice</h3>
-            <p>Fiecare piesă este executată într-un singur exemplar, pentru ca <strong>TU</strong> să fii unică.</p>
+            <p>Fiecare piesă este executată într-un singur exemplar, pentru ca <strong>TU</strong> să fii unică! Rochia este aleasă cu grijă, pentru apariții memorabile la fiecare eveniment.</p>
           </div>
           <div class="why-item">
             <h3>Personalizare după dimensiuni</h3>
@@ -92,6 +92,96 @@
       </div>
     </section>
 
+    <section class="section rental-terms" id="rental-terms">
+      <div class="container">
+        <div class="rental-terms-header">
+          <h2 class="section-title">Condiții de închiriere</h2>
+        </div>
+    
+        <div class="rental-faq">
+          <details class="faq-item" open>
+            <summary>Cum închiriez o rochie?</summary>
+            <div class="faq-content">
+              <p>
+                În primul rând, îți faci o programare în showroom pentru a proba ținutele dorite.
+                Recomandăm să te programezi din timp, pentru a te asigura că ai mai multe modele disponibile pentru data solicitată.
+              </p>
+              <p>
+                Proba durează, în general, 60 de minute, timp suficient pentru a încerca 5–6 rochii.
+              </p>
+              <p>
+                Pentru a rezerva ținuta dorită, se achită un avans de 50% din prețul închirierii, iar diferența se plătește la ridicarea rochiei.
+              </p>
+              <p>Se întocmește un contract în acest sens.</p>
+            </div>
+          </details>
+    
+          <details class="faq-item">
+            <summary>Cum închiriez dacă nu reușesc să ajung în atelier la probă?</summary>
+            <div class="faq-content">
+              <p>
+                Ne contactezi telefonic și ne furnizezi câteva măsurători. Nu te îngrijora, te ajutăm noi cu îndrumări în acest sens.
+              </p>
+              <p>
+                Verificăm apoi pe manechin produsul dorit, astfel încât să ne asigurăm că ți se potrivește.
+              </p>
+              <p>
+                Încheiem un contract pe care ți-l trimitem prin email sau WhatsApp și pe care îl așteptăm înapoi semnat și scanat.
+              </p>
+              <p>
+                Plătești un avans de 50% din prețul închirierii, iar diferența se plătește ramburs, la firma de curierat.
+              </p>
+              <p>
+                Costul livrării prin curierat este suportat de client și va fi comunicat anterior livrării.
+              </p>
+            </div>
+          </details>
+    
+          <details class="faq-item">
+            <summary>Când ridic rochia?</summary>
+            <div class="faq-content">
+              <p>
+                În săptămâna evenimentului, de regulă cu o zi înainte. Dacă soliciți livrarea prin curier, produsul va fi livrat cu 2 zile înainte de eveniment.
+              </p>
+            </div>
+          </details>
+    
+          <details class="faq-item">
+            <summary>Când returnez rochia?</summary>
+            <div class="faq-content">
+              <p>
+                A doua zi după eveniment sau în prima zi lucrătoare după eveniment.
+              </p>
+              <p>
+                Rochia <strong>nu trebuie curățată</strong>, de acest aspect ne ocupăm noi.
+              </p>
+              <p>
+                Te rugăm doar să ne returnezi toate elementele închiriate: rochia, șalul, mănușile, trena detașabilă etc., în ambalajul original  (husa de panză și umerașul de catifea).
+              </p>
+            </div>
+          </details>
+    
+          <details class="faq-item">
+            <summary>Ce se întâmplă dacă rochia s-a murdărit sau s-a deteriorat?</summary>
+            <div class="faq-content">
+              <p>
+                În condițiile unei utilizări normale, precum pete de mâncare, vin, urme de fard sau deodorant, nu este nicio problemă. Aceste situații se pot remedia la curățătorie.
+              </p>
+              <p>
+                Dacă apare o deteriorare avansată care nu poate fi rezolvată prin curățare chimică sau reparație minoră, conform contractului de închiriere, se poate imputa costul reparației.
+              </p>
+              <p>
+                Dacă rochia nu mai poate fi remediată, se facturează întregul preț de achiziție al rochiei, la valoarea de catalog.
+              </p>
+              <p>
+                Nu am avut astfel de incidente până acum și sperăm să nu fie cazul nici pe viitor.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    
     <!-- SECȚIUNEA COLECȚIILE NOASTRE -->
     <section class="section collections" id="collections">
       <div class="container">
@@ -226,10 +316,13 @@
     <section class="section location" id="location">
       <div class="container">
         <h2 class="section-title">Unde ne găsești</h2>
-        <p class="section-intro">
-          Te așteptăm în showroom-ul <strong>Anne L’Or</strong> pentru a proba rochii, a discuta despre evenimentul tău
-          și a găsi împreună silueta perfectă.
-        </p>
+        <div class="location-intro">
+          <p class="location-address">Bistrița, Str. Dornei, nr. 31</p>
+          <p class="location-note">
+            Showroom-ul <strong>Anne L’Or</strong> poate fi vizitat exclusiv pe bază de programare, pentru a-ți oferi o experiență personalizată.
+          </p>
+        </div>
+    
 
         <div class="map-wrapper">
           <!-- Harta este responsivă: iframe-ul se adaptează automat la lățimea containerului -->
@@ -318,6 +411,22 @@
     </div>
   </div>
   </footer>
+
+   <!-- popup informare fotografii -->
+   <div class="consent-modal" id="photo-consent-modal" aria-hidden="true">
+    <div class="consent-box" role="dialog" aria-modal="true" aria-labelledby="consent-title">
+      <h3 id="consent-title">Informare privind fotografiile transmise</h3>
+      <p>
+        Prin transmiterea fotografiilor către <strong>Anne L’Or</strong> prin WhatsApp, Facebook, Instagram sau alte canale de comunicare,
+        vă exprimați acordul pentru utilizarea și publicarea acestora pe site-ul oficial și pe rețelele de socializare ale
+        <strong>Anne L’Or</strong>.
+      </p>
+
+      <div class="consent-actions">
+        <button type="button" class="btn btn-ghost" id="close-consent-modal">Am înțeles</button>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
